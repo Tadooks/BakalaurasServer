@@ -65,7 +65,7 @@ let addRequest =  async function(request, result) {
             soundpacktype: request.soundpacktype,
             synthpresetpack: request.synthpresetpack,
             includeproject: request.includeproject,
-            requestdate: value.requestdate,
+            requestdate: request.requestdate,
         };
     
         const updates = {};
