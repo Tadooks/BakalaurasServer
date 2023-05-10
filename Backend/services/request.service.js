@@ -28,7 +28,7 @@ let getRequests =  async function(thingamabob, result) {
                     soundpacktype: value.soundpacktype,
                     synthpresetpack: value.synthpresetpack,
                     includeproject: value.includeproject,
-                    
+                    requestdate: value.requestdate,
                 });
             });
             result(null, arrayOfRequests);
@@ -65,6 +65,7 @@ let addRequest =  async function(request, result) {
             soundpacktype: request.soundpacktype,
             synthpresetpack: request.synthpresetpack,
             includeproject: request.includeproject,
+            requestdate: value.requestdate,
         };
     
         const updates = {};
