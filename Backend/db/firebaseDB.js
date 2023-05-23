@@ -6,7 +6,6 @@
 import { initializeApp } from 'firebase/app';
 import { getDatabase } from "firebase/database";
 
-// TODO: Replace with your app's Firebase project configuration
 const firebaseConfig = {
     apiKey: "AIzaSyBjLcKDKBz0RsDqWxXbFxWw_1cZazlHR_o",
     authDomain: "bakalauras-8fdcd.firebaseapp.com",

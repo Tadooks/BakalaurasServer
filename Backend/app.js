@@ -38,7 +38,7 @@ app.use(cors())
 
 
 app.get("/",function (req,res) {
-    res.send("Melonter shop api");
+    res.send("Artist shop api");
 });
 
 
