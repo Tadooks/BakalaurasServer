@@ -2,6 +2,7 @@
 
 import { database } from "../db/firebaseDB.js";
 import { auth } from "../db/firebaseDBAdmin.js";
+// https://firebase.google.com/docs/reference/js/database.md#database_package
 import { ref, child, get, push, update} from "firebase/database";
 
 let getUsers =  async function(thingamabob, result) {

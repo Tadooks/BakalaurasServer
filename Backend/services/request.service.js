@@ -1,9 +1,10 @@
 'use strict';
 
 import { database } from "../db/firebaseDB.js";
+// https://firebase.google.com/docs/reference/js/database.md#database_package
 import { ref, child, get, push, update} from "firebase/database";
 
-//https://firebase.google.com/docs
+
 
 let getRequests =  async function(thingamabob, result) {
 

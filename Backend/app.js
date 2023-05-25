@@ -11,6 +11,9 @@ import { getUsers, getSingleUserUID, getSingleUserByAuthID, addUser, editUser, d
 import { getUserAllOrders, getOrders, getSingleOrder,addOrder,editOrder,deleteOrder} from './controllers/order.controller.js'
 import { getRequests, addRequest,deleteRequest } from './controllers/request.controller.js';
 
+
+// https://devtut.github.io/nodejs/route-controller-service-structure-for-expressjs.html#model-routes-controllers-services-code-structure
+
 // Express
 const bodyParser = require('body-parser');
 
@@ -35,8 +38,8 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cors())
 
-
-
+//get post put delete
+// https://expressjs.com/en/starter/basic-routing.html
 app.get("/",function (req,res) {
     res.send("Artist shop api");
 });
